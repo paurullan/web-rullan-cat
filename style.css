@@ -1,20 +1,21 @@
-#header {
-  clear: both; }
-
 #data {
   padding: 0.5em; }
 
 #avatar {
   float: right; }
+  #avatar img {
+    width: 200px; }
 
 #contact {
   float: left; }
+  #contact img {
+    width: 96px; }
 
 h1 {
-  background-color: #eeeeee;
+  background-color: silver;
+  padding: 0.5em;
   -moz-border-radius: 0.25em;
-  -webkit-border-radius: 0.25em;
-  padding: 0.5em; }
+  -webkit-border-radius: 0.25em; }
 
 table {
   border-spacing: 0.1em;
