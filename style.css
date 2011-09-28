@@ -1,0 +1,26 @@
+#header {
+  clear: both; }
+
+#data {
+  padding: 0.5em; }
+
+#avatar {
+  float: right; }
+
+#contact {
+  float: left; }
+
+h1 {
+  background-color: #eeeeee;
+  -moz-border-radius: 0.25em;
+  -webkit-border-radius: 0.25em;
+  padding: 0.5em; }
+
+table {
+  border-spacing: 0.1em;
+  border-collapse: collapse; }
+
+tr {
+  text-align: left; }
+  tr:hover {
+    background-color: #eeeeee; }
