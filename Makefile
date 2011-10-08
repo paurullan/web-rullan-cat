@@ -19,3 +19,7 @@ init_uwsgi:
 init_uwsgi_demonize:
 	# demonize and put in file LOG
 	uwsgi -d LOG -L -p 4 -M  --plugins http,python --file web.py -s 127.0.0.1:3031
+
+uwsgi_alone:
+	uwsgi -p 5 -M -L --plugins http,python --http :8080  --file web.py 
+
