@@ -3,5 +3,5 @@ all: css
 test: all
 
 css:
-	sass style.sass > style.css
+	sass style.sass > static/style.css
 
