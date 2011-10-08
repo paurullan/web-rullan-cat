@@ -5,6 +5,8 @@ from __future__ import print_function, division
 
 __version__ = "0.0.1"
 
+import sys
+
 from bottle import route, post, error
 import bottle
 
@@ -34,8 +36,13 @@ def error404(error):
     return bottle.template("templates/404.tlp")
 
 if __name__ == '__main__':
-    bottle.debug(True)
-    bottle.run(reloader=True)
+    if len(sys.argv) > 1:
+        server = sys.argv[1]
+        if server == 'pro' or server == 'gunicorn':
+            bottle.run(server='gunicorn')
+    else:
+        bottle.debug(True)
+        bottle.run(reloader=True)
 else:
     # arrancar en mode wsgi
     application = bottle.app()
