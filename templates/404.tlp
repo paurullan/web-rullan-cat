@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>                                                                       
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">                                                           
-<html lang='en'>                                                                                             
-    <head>
-        <title>Pau Ruŀlan Ferragut - contact page</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF8"/> 
-        <link rel="stylesheet" type="text/css" href="static/style.css">
-    <head>
+%include templates/header.tlp
 
 <body>
     <div id="header">
@@ -17,7 +10,7 @@
     </p>
 
     <p>
-    <a href="http://martapujades.com">Go back to the main page</a>
+    <a href="http://paurullan.com">Go back to the main page</a>
     </p>
 
 

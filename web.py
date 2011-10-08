@@ -12,7 +12,7 @@ import bottle
 
 @route("/")
 def index():
-    return bottle.template("templates/main.tlp")
+    return bottle.template("templates/index.tlp")
 
 @route("/static/:filename")
 def server_static(filename):
