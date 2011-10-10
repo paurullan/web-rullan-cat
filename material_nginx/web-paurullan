@@ -1,7 +1,6 @@
 server {
 	listen   80;
-	server_name localhost;
-	#server_name customersite1.com www.customersite1.com;
+	server_name paurullan.com www.paurullan.com;
 	#access_log /var/log/customersite1/access_log;
 	location / {
 	    include uwsgi_params;
