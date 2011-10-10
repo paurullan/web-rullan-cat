@@ -1,0 +1,1 @@
+uwsgi -d /home/users/paurullan/logs/web-paurullan -L -p 4 -M  --plugins http,python --file /home/users/paurullan/web-paurullan/web.py -s 127.0.0.1:3031
