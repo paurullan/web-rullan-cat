@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # www.clemesha.org/blog/modern-python-hacker-tools-virtualenv-fabric-pip
+from fabric.api import local, run
 
 __version__ = "0.0.1"
 
