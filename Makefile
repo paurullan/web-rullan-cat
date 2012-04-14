@@ -4,6 +4,7 @@ test: all
 
 css:
 	sass style.sass > static/style.css
+	sass mobile.sass > static/mobile.css
 
 init_uwsgi_debug:
 	uwsgi -M  --plugins http,python --file web.py -s 127.0.0.1:3031

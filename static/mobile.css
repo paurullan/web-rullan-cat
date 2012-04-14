@@ -1,0 +1,28 @@
+#data {
+  padding: 0.5em; }
+
+#avatar img {
+  width: 100%; }
+
+#contact img {
+  width: 3em; }
+
+#thanks {
+  padding: 0.5em; }
+  #thanks p {
+    text-align: right; }
+
+h1 {
+  background-color: #a6c2e1;
+  padding: 0.5em;
+  -moz-border-radius: 0.25em;
+  -webkit-border-radius: 0.25em; }
+
+table {
+  border-spacing: 0.1em;
+  border-collapse: collapse; }
+
+tr {
+  text-align: left; }
+  tr:hover {
+    background-color: #eeeeee; }

@@ -4,6 +4,9 @@
     <head>
         <title>Pau Ruŀlan Ferragut - contact page</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF8"/> 
-        <link rel="stylesheet" type="text/css" href="static/style.css">
+     <!--   <link rel="stylesheet" type="text/css" href="static/style.css"> -->
+     <!--   <link rel="stylesheet" type="text/css" href="static/style.css"> -->
+     <!--  <link rel="stylesheet" media="handheld" type="text/css" href="static/mobile.css"> -->
+        <link rel="stylesheet" media="screen" type="text/css" href="static/mobile.css">
     <head>
 
