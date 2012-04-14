@@ -3,26 +3,25 @@
 
 #avatar {
   float: right; }
-  #avatar img {
-    width: 288px; }
 
 #contact {
   float: left; }
   #contact img {
-    width: 96px; }
+    width: 3em; }
 
 #thanks {
+  float: right;
   position: relative;
   clear: both;
-  padding: 0.5em; }
-  #thanks p {
-    text-align: right; }
+  padding: 0.5em;
+  text-align: right; }
+  #thanks img {
+    width: 3em; }
 
 h1 {
   background-color: #a6c2e1;
   padding: 0.5em;
-  -moz-border-radius: 0.25em;
-  -webkit-border-radius: 0.25em; }
+  border-radius: 0.25em; }
 
 table {
   border-spacing: 0.1em;

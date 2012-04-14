@@ -38,14 +38,11 @@
             WebDesigner Depot
         </a>
         </p>
-        <p>
-        Hosting thanks to <a href="http://www.apsl.net">APSL.net</a>
-        <a href="http://www.apsl.net"><img src="static/apsl.gif"></a>
-        </p>
-        <p>
-        ReST: <a href="http://paurullan.com/api/contact">
-                <tt>http://paurullan.com/api/contact</tt></a>
-        </p>
+        <table>
+        <th>Hosting thanks to <a href="http://www.apsl.net">APSL.net</a></th>
+        <th><a href="http://www.apsl.net"><img src="static/apsl.gif"></a></th>
+            </tr>
+        </table>
     </div>
 
 <body>
