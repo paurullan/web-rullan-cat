@@ -1,24 +1,4 @@
-#data {
-  padding: 0.5em; }
-
-#avatar {
-  float: right; }
-
-#contact {
-  float: left; }
-  #contact img {
-    width: 3em; }
-
-#thanks {
-  float: right;
-  position: relative;
-  clear: both;
-  padding: 0.5em;
-  text-align: right; }
-  #thanks img {
-    width: 3em; }
-
-h1 {
+#header h1 {
   background-color: #a6c2e1;
   padding: 0.5em;
   border-radius: 0.25em; }
@@ -31,3 +11,48 @@ tr {
   text-align: left; }
   tr:hover {
     background-color: #eeeeee; }
+
+#avatar img {
+  width: 100%; }
+
+#contact img {
+  width: 3em; }
+
+#thanks img {
+  width: 3em; }
+
+@media screen and (min-width: 321px) {
+  #avatar img {
+    width: 320px; }
+
+  #contact img {
+    width: 96px; }
+
+  #thanks img {
+    width: 96px; } }
+@media screen and (min-width: 481px) {
+  #avatar img {
+    width: 320px; }
+
+  #contact img {
+    width: 96px; }
+
+  #thanks img {
+    width: 96px; }
+
+  #avatar {
+    float: right; }
+
+  #contact {
+    float: left; }
+    #contact img {
+      width: 96px; }
+
+  #thanks {
+    float: right;
+    position: relative;
+    clear: both;
+    padding: 0.5em;
+    text-align: right; }
+    #thanks img {
+      width: 96px; } }

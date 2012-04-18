@@ -6,28 +6,28 @@
     </div>
 
     <div id="data">
-    <div id="avatar">
-        <a href="http://www.flickr.com/photos/tessitura/6059169096/in/photosof-paurullan/">
-        <img src="static/avatar.jpg">
-        </a>
-    </div>
+        <div id="avatar">
+            <a href="http://www.flickr.com/photos/tessitura/6059169096/in/photosof-paurullan/">
+            <img src="static/avatar.jpg">
+            </a>
+        </div>
 
-    <div id="contact">
-        <table>
-            <tr>
-                <th><a href="mailto:paurullan@gmail.com?subject=Ciao Pau"><img src="static/google.png"></a></th>
-                <th><a href="mailto:paurullan@gmail.com?subject=Ciao Pau">paurullan@gmail.com</a></th>
-            </tr>
-            <tr>
-                <th><a href="http://flickr.com/photos/paurullan"><img src="static/flickr.png"></a></th>
-                <th><a href="http://flickr.com/photos/paurullan">flickr: paurullan</a><th>
-            </tr>
-            <tr>
-                <th><a href="http://twitter.com/paurullan"><img src="static/twitter.png"></a></th>
-                <th><a href="http://twitter.com/paurullan">@paurullan</a></th>
-            </tr>
-        </table>
-    </div>
+        <div id="contact">
+            <table>
+                <tr>
+                    <th><a href="mailto:paurullan@gmail.com?subject=Ciao Pau"><img src="static/google.png"></a></th>
+                    <th><a href="mailto:paurullan@gmail.com?subject=Ciao Pau">paurullan@gmail.com</a></th>
+                </tr>
+                <tr>
+                    <th><a href="http://flickr.com/photos/paurullan"><img src="static/flickr.png"></a></th>
+                    <th><a href="http://flickr.com/photos/paurullan">flickr: paurullan</a><th>
+                </tr>
+                <tr>
+                    <th><a href="http://twitter.com/paurullan"><img src="static/twitter.png"></a></th>
+                    <th><a href="http://twitter.com/paurullan">@paurullan</a></th>
+                </tr>
+            </table>
+        </div>
     </div>
 
     <div id="thanks">
@@ -47,3 +47,4 @@
 
 <body>
 </html>
+
