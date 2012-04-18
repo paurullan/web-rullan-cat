@@ -8,5 +8,8 @@
         <meta name="description" content="personal web page paurullan">
         <meta name="author" content="Pau Ruŀlan Ferragut">
         <link rel="stylesheet" type="text/css" href="static/style.css">
+        <meta name="viewport" content="initial-scale=1.0,
+                                        width=device-width" />
+
     </head>
 
