@@ -9,6 +9,7 @@ $main_color: #A6C2E1
     background-color: $main_color
     padding: .5em
     border-radius: .25em
+    width: 90%
 
 // Configuracions de la taula
 table
@@ -33,6 +34,10 @@ $icon_height: 3em
 
 @media screen and (min-width: 321px)
 
+  #header
+    h1
+      width: 8em
+
   #avatar
     img
       width: 320px
@@ -45,7 +50,21 @@ $icon_height: 3em
     img
       width: $icon_height 
 
+  #thanks
+    float: right
+    position: relative
+    clear: both
+    padding: .5em
+    text-align: right
+    img
+      width: $icon_height 
+
+
 @media screen and (min-width: 481px)
+
+  #header
+    h1
+      width: 85%
 
   #avatar
     img
@@ -65,15 +84,6 @@ $icon_height: 3em
   
   #contact
     float: left
-    img
-      width: $icon_height 
-  
-  #thanks
-    float: right
-    position: relative
-    clear: both
-    padding: .5em
-    text-align: right
     img
       width: $icon_height 
   

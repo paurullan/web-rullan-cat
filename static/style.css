@@ -1,7 +1,8 @@
 #header h1 {
   background-color: #a6c2e1;
   padding: 0.5em;
-  border-radius: 0.25em; }
+  border-radius: 0.25em;
+  width: 90%; }
 
 table {
   border-spacing: 0.1em;
@@ -22,6 +23,9 @@ tr {
   width: 3em; }
 
 @media screen and (min-width: 321px) {
+  #header h1 {
+    width: 8em; }
+
   #avatar img {
     width: 320px; }
 
@@ -29,8 +33,20 @@ tr {
     width: 96px; }
 
   #thanks img {
-    width: 96px; } }
+    width: 96px; }
+
+  #thanks {
+    float: right;
+    position: relative;
+    clear: both;
+    padding: 0.5em;
+    text-align: right; }
+    #thanks img {
+      width: 96px; } }
 @media screen and (min-width: 481px) {
+  #header h1 {
+    width: 85%; }
+
   #avatar img {
     width: 320px; }
 
@@ -46,13 +62,4 @@ tr {
   #contact {
     float: left; }
     #contact img {
-      width: 96px; }
-
-  #thanks {
-    float: right;
-    position: relative;
-    clear: both;
-    padding: 0.5em;
-    text-align: right; }
-    #thanks img {
       width: 96px; } }
