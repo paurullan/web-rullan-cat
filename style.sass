@@ -4,9 +4,12 @@ $lightgray: #eeeeee
 $main_color: #A6C2E1
 
 #header
+  background: $main_color
+  border-top: .3em solid $main_color
+  border-bottom: .3em
   h1
-    background-color: $main_color
-    padding: .5em
+    padding: .2em
+
 
 // Configuracions de la taula
 table
@@ -27,10 +30,9 @@ $icon_height: 3em
   img
     width: $icon_height 
 #thanks
-  img
-    width: $icon_height 
+  border-top: .3em
 
-@media screen and (min-width: 321px)
+@media screen and (min-width: 20em)
 
   #avatar
     img
@@ -40,21 +42,8 @@ $icon_height: 3em
   #contact
     img
       width: $icon_height 
-  #thanks
-    img
-      width: $icon_height 
 
-  #thanks
-    float: right
-    position: relative
-    clear: both
-    padding: .5em
-    text-align: right
-    img
-      width: $icon_height 
-
-
-@media screen and (min-width: 680px)
+@media screen and (min-width: 40em)
 
   #avatar
     img
@@ -62,9 +51,6 @@ $icon_height: 3em
 
   $icon_height: 5em
   #contact
-    img
-      width: $icon_height 
-  #thanks
     img
       width: $icon_height 
 
@@ -77,3 +63,9 @@ $icon_height: 3em
     img
       width: $icon_height 
   
+  #thanks
+    float: right
+    position: relative
+    clear: both
+    padding: .5em
+    text-align: right

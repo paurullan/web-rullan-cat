@@ -1,6 +1,9 @@
-#header h1 {
-  background-color: #a6c2e1;
-  padding: 0.5em; }
+#header {
+  background: #a6c2e1;
+  border-top: 0.3em solid #a6c2e1;
+  border-bottom: 0.3em; }
+  #header h1 {
+    padding: 0.2em; }
 
 table {
   border-spacing: 0.1em;
@@ -17,30 +20,21 @@ tr {
 #contact img {
   width: 3em; }
 
-#thanks img {
-  width: 3em; }
+#thanks {
+  border-top: 0.3em; }
 
-@media screen and (min-width: 321px) {
-  #avatar img {
-    width: 320px; }
-
-  #thanks {
-    float: right;
-    position: relative;
-    clear: both;
-    padding: 0.5em;
-    text-align: right; }
-    #thanks img {
-      width: 4em; } }
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 20em) {
   #avatar img {
     width: 320px; }
 
   #contact img {
-    width: 96px; }
+    width: 4em; } }
+@media screen and (min-width: 40em) {
+  #avatar img {
+    width: 320px; }
 
-  #thanks img {
-    width: 96px; }
+  #contact img {
+    width: 5em; }
 
   #avatar {
     float: right; }
@@ -48,4 +42,11 @@ tr {
   #contact {
     float: left; }
     #contact img {
-      width: 96px; } }
+      width: 5em; }
+
+  #thanks {
+    float: right;
+    position: relative;
+    clear: both;
+    padding: 0.5em;
+    text-align: right; } }
