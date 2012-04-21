@@ -1,17 +1,20 @@
 %include templates/header.tlp
 
 <body>
+    <header>
     <div id="header">
         <h1>Pau Ruŀlan Ferragut</h1>
     </div>
+    </header>
 
+    
+    <section>
     <div id="data">
         <div id="avatar">
             <a href="http://www.flickr.com/photos/tessitura/6059169096/in/photosof-paurullan/">
             <img src="static/avatar.jpg">
             </a>
         </div>
-
         <div id="contact">
             <table>
                 <tr>
@@ -29,7 +32,9 @@
             </table>
         </div>
     </div>
+    </section>
 
+    <footer>
     <div id="thanks">
         <p>
         Photo by <a href="http://martapujades.com">Marta Pujades Ordines</a><br />
@@ -39,6 +44,7 @@
         Hosting thanks to <a href="http://www.apsl.net">APSL.net</a>
         </p>
     </div>
+    </footer>
 
 <body>
 </html>
