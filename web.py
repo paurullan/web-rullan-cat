@@ -10,11 +10,11 @@ import bottle
 
 @route("/")
 def index():
-    return bottle.template("templates/index.tlp")
+    return bottle.template("index")
 
 @route("/geo")
 def geo():
-    return bottle.template("templates/geo.tlp")
+    return bottle.template("geo")
 
 @route("/static/:filename")
 def server_static(filename):
@@ -22,7 +22,7 @@ def server_static(filename):
 
 @error(404)
 def error404(error):
-    return bottle.template("templates/404.tlp")
+    return bottle.template("404")
 
 if __name__ == '__main__':
     bottle.debug(True)

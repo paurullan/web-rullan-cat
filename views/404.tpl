@@ -1,4 +1,4 @@
-%include templates/header.tlp
+%include header.tlp
 
 <body>
     <div id="header">
